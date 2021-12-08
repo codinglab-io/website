@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  font-family: "Myriad Pro";
-  src: url("./assets/fonts/Myriad\ Pro\ Regular.ttf");
+  font-family: 'Myriad Pro';
+  src: url('./assets/fonts/Myriad\ Pro\ Regular.ttf');
 }
 
 * {
@@ -17,7 +17,7 @@
 body {
   background: black;
   color: white;
-  font-family: "Myriad Pro", sans-serif;
+  font-family: 'Myriad Pro', sans-serif;
 }
 
 main {
