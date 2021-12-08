@@ -14,7 +14,10 @@
   box-sizing: content-box;
 }
 
-body {
+html,
+body,
+main {
+  min-height: 100vh;
   background: black;
   color: white;
   font-family: 'Myriad Pro', sans-serif;
