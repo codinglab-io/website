@@ -1,0 +1,87 @@
+:root {
+  --custom-red: rgba(244, 67, 54, 1);
+  --custom-blue: rgba(33, 150, 243, 1);
+}
+
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("./assets/fonts/Myriad\ Pro\ Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  background: black;
+  color: white;
+  font-family: "Myriad Pro", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner {
+  width: 50vw;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.icon-container {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  padding: 20px;
+  color: #fff;
+}
+
+.icon:hover {
+  animation: icon3d 200ms infinite;
+  -webkit-animation: icon3d 200ms infinite;
+  cursor: pointer;
+}
+
+@keyframes icon3d {
+  0% {
+    text-shadow: 5px 4px var(--custom-red), -5px -6px var(--custom-blue);
+  }
+  25% {
+    text-shadow: -5px -6px var(--custom-red), 5px 4px var(--custom-blue);
+  }
+  50% {
+    text-shadow: 5px -4px var(--custom-red), -8px 4px var(--custom-blue);
+  }
+  75% {
+    text-shadow: -8px -4px var(--custom-red), -5px -4px var(--custom-blue);
+  }
+  100% {
+    text-shadow: -5px 0 var(--custom-red), 5px -4px var(--custom-blue);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    width: 100vw;
+  }
+
+  .icon-container {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
