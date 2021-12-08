@@ -9,14 +9,14 @@
 }
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: content-box;
 }
 
 html,
 body,
 main {
+  margin: 0;
+  padding: 0;
   min-height: 100vh;
   background: black;
   color: white;
