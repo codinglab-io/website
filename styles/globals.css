@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('/fonts/Myriad\ Pro\ Regular.ttf');
+}
+
+@layer base {
+  html,
+  body,
+  #__next {
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-family: 'Myriad Pro', -apple-system, BlinkMacSystemFont, Segoe UI,
+      Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+      sans-serif;
+  }
+}
+
+@layer utilities {
+  :root {
+    --shake-color-primary: rgba(244, 67, 54, 1);
+    --shake-color-secondary: rgba(33, 150, 243, 1);
+  }
+
+  .shaky-animation {
+    animation: AnimColorShake 200ms infinite;
+  }
+}
+
+@keyframes AnimColorShake {
+  0% {
+    filter: drop-shadow(4px var(--shake-color-primary))
+      drop-shadow(-5px -6px var(--shake-color-secondary));
+  }
+  25% {
+    filter: drop-shadow(-5px -6px var(--shake-color-primary))
+      drop-shadow(5px 4px var(--shake-color-secondary));
+  }
+  50% {
+    filter: drop-shadow(-4px var(--shake-color-primary))
+      drop-shadow(-8px 4px var(--shake-color-secondary));
+  }
+  75% {
+    filter: drop-shadow(-8px -4px var(--shake-color-primary))
+      drop-shadow(-5px -4px var(--shake-color-secondary));
+  }
+  100% {
+    filter: drop-shadow(-5px 0 var(--shake-color-primary))
+      drop-shadow(5px -4px var(--shake-color-secondary));
+  }
+}
