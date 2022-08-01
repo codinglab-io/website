@@ -7,6 +7,13 @@
       "automerge": true
     }
   ],
+  "schedule": ["every saturday"],
   "rangeStrategy": "pin",
-  "enabledManagers": ["npm"]
+  "enabledManagers": [
+    "npm",
+    "nvm",
+    "dockerfile",
+    "docker-compose",
+    "github-actions"
+  ]
 }
