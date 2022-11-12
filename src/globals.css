@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'Myriad Pro';
-  src: url('/fonts/Myriad\ Pro\ Regular.ttf');
+  src: local('Myriad Pro'), url('/public/fonts/Myriad Pro Regular.ttf');
 }
 
 @layer base {

@@ -1,9 +1,9 @@
-import type { NextPage } from 'next';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faDiscord } from '@fortawesome/free-brands-svg-icons';
-import ImageBanner from '../components/ImageBanner/ImageBanner';
+import type React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDiscord, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { ImageBanner } from "../components/ImageBanner/ImageBanner";
 
-const Home: NextPage = () => (
+export const Index: React.FC = () => (
   <main className="bg-zinc-900 min-h-screen text-white flex flex-col items-center gap-10">
     <div className="max-w-5xl">
       <ImageBanner />
@@ -29,5 +29,3 @@ const Home: NextPage = () => (
     </div>
   </main>
 );
-
-export default Home;
