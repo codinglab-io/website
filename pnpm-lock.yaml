@@ -5,7 +5,7 @@ specifiers:
   '@fortawesome/free-brands-svg-icons': 6.3.0
   '@fortawesome/react-fontawesome': 0.2.0
   '@types/node': 18.15.11
-  '@types/react': 18.0.29
+  '@types/react': 18.0.31
   '@types/react-dom': 18.0.11
   '@vitejs/plugin-react': 3.1.0
   autoprefixer: 10.4.14
@@ -26,7 +26,7 @@ dependencies:
 
 devDependencies:
   '@types/node': 18.15.11
-  '@types/react': 18.0.29
+  '@types/react': 18.0.31
   '@types/react-dom': 18.0.11
   '@vitejs/plugin-react': 3.1.0_vite@4.2.1
   autoprefixer: 10.4.14_postcss@8.4.21
@@ -566,11 +566,11 @@ packages:
   /@types/react-dom/18.0.11:
     resolution: {integrity: sha512-O38bPbI2CWtgw/OoQoY+BRelw7uysmXbWvw3nLWO21H1HSh+GOlqPuXshJfjmpNlKiiSDG9cc1JZAaMmVdcTlw==}
     dependencies:
-      '@types/react': 18.0.29
+      '@types/react': 18.0.31
     dev: true
 
-  /@types/react/18.0.29:
-    resolution: {integrity: sha512-wXHktgUABxplw1+UnljseDq4+uztQyp2tlWZRIxHlpchsCFqiYkvaDS8JR7eKOQm8wziTH/el5qL7D6gYNkYcw==}
+  /@types/react/18.0.31:
+    resolution: {integrity: sha512-EEG67of7DsvRDU6BLLI0p+k1GojDLz9+lZsnCpCRTa/lOokvyPBvp8S5x+A24hME3yyQuIipcP70KJ6H7Qupww==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
