@@ -17,7 +17,7 @@
     "@types/node": "18.16.19",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
-    "@vitejs/plugin-react": "4.0.1",
+    "@vitejs/plugin-react": "4.0.2",
     "autoprefixer": "10.4.14",
     "postcss": "8.4.24",
     "prettier": "2.8.8",
