@@ -23,8 +23,8 @@ dependencies:
 
 devDependencies:
   '@types/node':
-    specifier: 20.14.15
-    version: 20.14.15
+    specifier: 20.15.0
+    version: 20.15.0
   '@types/react':
     specifier: 18.2.79
     version: 18.2.79
@@ -51,7 +51,7 @@ devDependencies:
     version: 5.5.4
   vite:
     specifier: 5.4.1
-    version: 5.4.1(@types/node@20.14.15)
+    version: 5.4.1(@types/node@20.15.0)
 
 packages:
 
@@ -718,10 +718,10 @@ packages:
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
     dev: true
 
-  /@types/node@20.14.15:
-    resolution: {integrity: sha512-Fz1xDMCF/B00/tYSVMlmK7hVeLh7jE5f3B7X1/hmV0MJBwE27KlS7EvD/Yp+z1lm8mVhwV5w+n8jOZG8AfTlKw==}
+  /@types/node@20.15.0:
+    resolution: {integrity: sha512-eQf4OkH6gA9v1W0iEpht/neozCsZKMTK+C4cU6/fv7wtJCCL8LEQ4hie2Ln8ZP/0YYM2xGj7//f8xyqItkJ6QA==}
     dependencies:
-      undici-types: 5.26.5
+      undici-types: 6.13.0
     dev: true
 
   /@types/prop-types@15.7.5:
@@ -752,7 +752,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.24.6(@babel/core@7.24.6)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 5.4.1(@types/node@20.14.15)
+      vite: 5.4.1(@types/node@20.15.0)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1537,8 +1537,8 @@ packages:
     hasBin: true
     dev: true
 
-  /undici-types@5.26.5:
-    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+  /undici-types@6.13.0:
+    resolution: {integrity: sha512-xtFJHudx8S2DSoujjMd1WeWvn7KKWFRESZTMeL1RptAYERu29D6jphMjjY+vn96jvN3kVPDNxU/E13VTaXj6jg==}
     dev: true
 
   /update-browserslist-db@1.0.13(browserslist@4.23.0):
@@ -1567,7 +1567,7 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite@5.4.1(@types/node@20.14.15):
+  /vite@5.4.1(@types/node@20.15.0):
     resolution: {integrity: sha512-1oE6yuNXssjrZdblI9AfBbHCC41nnyoVoEZxQnID6yvQZAFBzxxkqoFLtHUMkYunL8hwOLEjgTuxpkRxvba3kA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -1598,7 +1598,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.14.15
+      '@types/node': 20.15.0
       esbuild: 0.21.5
       postcss: 8.4.41
       rollup: 4.13.0
