@@ -36,10 +36,10 @@ devDependencies:
     version: 4.3.1(vite@5.4.2)
   autoprefixer:
     specifier: 10.4.20
-    version: 10.4.20(postcss@8.4.41)
+    version: 10.4.20(postcss@8.4.42)
   postcss:
-    specifier: 8.4.41
-    version: 8.4.41
+    specifier: 8.4.42
+    version: 8.4.42
   prettier:
     specifier: 3.3.3
     version: 3.3.3
@@ -804,7 +804,7 @@ packages:
     resolution: {integrity: sha512-PYjyFOLKQ9y57JvQ6QLo8dAgNqswh8M1RMJYdQduT6xbWSgK36P/Z/v+p888pM69jMMfS8Xd8F6I1kQ/I9HUGg==}
     dev: true
 
-  /autoprefixer@10.4.20(postcss@8.4.41):
+  /autoprefixer@10.4.20(postcss@8.4.42):
     resolution: {integrity: sha512-XY25y5xSv/wEoqzDyXXME4AFfkZI0P23z6Fs3YgymDnKJkCGOnkL0iTxCa85UTqaSgfcqyf3UA6+c7wUvx/16g==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
@@ -816,7 +816,7 @@ packages:
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.1
-      postcss: 8.4.41
+      postcss: 8.4.42
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -1283,29 +1283,29 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /postcss-import@15.1.0(postcss@8.4.41):
+  /postcss-import@15.1.0(postcss@8.4.42):
     resolution: {integrity: sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       postcss: ^8.0.0
     dependencies:
-      postcss: 8.4.41
+      postcss: 8.4.42
       postcss-value-parser: 4.2.0
       read-cache: 1.0.0
       resolve: 1.22.2
     dev: true
 
-  /postcss-js@4.0.1(postcss@8.4.41):
+  /postcss-js@4.0.1(postcss@8.4.42):
     resolution: {integrity: sha512-dDLF8pEO191hJMtlHFPRa8xsizHaM82MLfNkUHdUtVEV3tgTp5oj+8qbEqYM57SLfc74KSbw//4SeJma2LRVIw==}
     engines: {node: ^12 || ^14 || >= 16}
     peerDependencies:
       postcss: ^8.4.21
     dependencies:
       camelcase-css: 2.0.1
-      postcss: 8.4.41
+      postcss: 8.4.42
     dev: true
 
-  /postcss-load-config@4.0.1(postcss@8.4.41):
+  /postcss-load-config@4.0.1(postcss@8.4.42):
     resolution: {integrity: sha512-vEJIc8RdiBRu3oRAI0ymerOn+7rPuMvRXslTvZUKZonDHFIczxztIyJ1urxM1x9JXEikvpWWTUUqal5j/8QgvA==}
     engines: {node: '>= 14'}
     peerDependencies:
@@ -1318,17 +1318,17 @@ packages:
         optional: true
     dependencies:
       lilconfig: 2.1.0
-      postcss: 8.4.41
+      postcss: 8.4.42
       yaml: 2.2.2
     dev: true
 
-  /postcss-nested@6.0.1(postcss@8.4.41):
+  /postcss-nested@6.0.1(postcss@8.4.42):
     resolution: {integrity: sha512-mEp4xPMi5bSWiMbsgoPfcP74lsWLHkQbZc3sY+jWYd65CUwXrUaTp0fmNpa01ZcETKlIgUdFN/MpS2xZtqL9dQ==}
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.2.14
     dependencies:
-      postcss: 8.4.41
+      postcss: 8.4.42
       postcss-selector-parser: 6.0.11
     dev: true
 
@@ -1344,8 +1344,8 @@ packages:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
     dev: true
 
-  /postcss@8.4.41:
-    resolution: {integrity: sha512-TesUflQ0WKZqAvg52PWL6kHgLKP6xB6heTOdoYM0Wt2UHyxNa4K25EZZMgKns3BH1RLVbZCREPpLY0rhnNoHVQ==}
+  /postcss@8.4.42:
+    resolution: {integrity: sha512-hywKUQB9Ra4dR1mGhldy5Aj1X3MWDSIA1cEi+Uy0CjheLvP6Ual5RlwMCh8i/X121yEDLDIKBsrCQ8ba3FDMfQ==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.7
@@ -1517,11 +1517,11 @@ packages:
       normalize-path: 3.0.0
       object-hash: 3.0.0
       picocolors: 1.0.1
-      postcss: 8.4.41
-      postcss-import: 15.1.0(postcss@8.4.41)
-      postcss-js: 4.0.1(postcss@8.4.41)
-      postcss-load-config: 4.0.1(postcss@8.4.41)
-      postcss-nested: 6.0.1(postcss@8.4.41)
+      postcss: 8.4.42
+      postcss-import: 15.1.0(postcss@8.4.42)
+      postcss-js: 4.0.1(postcss@8.4.42)
+      postcss-load-config: 4.0.1(postcss@8.4.42)
+      postcss-nested: 6.0.1(postcss@8.4.42)
       postcss-selector-parser: 6.0.11
       resolve: 1.22.2
       sucrase: 3.32.0
@@ -1627,7 +1627,7 @@ packages:
     dependencies:
       '@types/node': 20.16.2
       esbuild: 0.21.5
-      postcss: 8.4.41
+      postcss: 8.4.42
       rollup: 4.21.0
     optionalDependencies:
       fsevents: 2.3.3
