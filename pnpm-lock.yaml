@@ -33,7 +33,7 @@ devDependencies:
     version: 18.2.25
   '@vitejs/plugin-react':
     specifier: 4.3.1
-    version: 4.3.1(vite@5.4.3)
+    version: 4.3.1(vite@5.4.5)
   autoprefixer:
     specifier: 10.4.20
     version: 10.4.20(postcss@8.4.45)
@@ -50,8 +50,8 @@ devDependencies:
     specifier: 5.5.4
     version: 5.5.4
   vite:
-    specifier: 5.4.3
-    version: 5.4.3(@types/node@20.16.5)
+    specifier: 5.4.5
+    version: 5.4.5(@types/node@20.16.5)
 
 packages:
 
@@ -765,7 +765,7 @@ packages:
       csstype: 3.1.1
     dev: true
 
-  /@vitejs/plugin-react@4.3.1(vite@5.4.3):
+  /@vitejs/plugin-react@4.3.1(vite@5.4.5):
     resolution: {integrity: sha512-m/V2syj5CuVnaxcUJOQRel/Wr31FFXRFlnOoq1TVtkCxsY5veGMTEmpWHndrhB2U8ScHtCQB1e+4hWYExQc6Lg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -776,7 +776,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.24.6(@babel/core@7.24.6)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 5.4.3(@types/node@20.16.5)
+      vite: 5.4.5(@types/node@20.16.5)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1594,8 +1594,8 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite@5.4.3(@types/node@20.16.5):
-    resolution: {integrity: sha512-IH+nl64eq9lJjFqU+/yrRnrHPVTlgy42/+IzbOdaFDVlyLgI/wDlf+FCobXLX1cT0X5+7LMyH1mIy2xJdLfo8Q==}
+  /vite@5.4.5(@types/node@20.16.5):
+    resolution: {integrity: sha512-pXqR0qtb2bTwLkev4SE3r4abCNioP3GkjvIDLlzziPpXtHgiJIjuKl+1GN6ESOT3wMjG3JTeARopj2SwYaHTOA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
