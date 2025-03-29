@@ -23,8 +23,8 @@ dependencies:
 
 devDependencies:
   '@types/node':
-    specifier: 22.13.11
-    version: 22.13.11
+    specifier: 22.13.14
+    version: 22.13.14
   '@types/react':
     specifier: 18.2.79
     version: 18.2.79
@@ -51,7 +51,7 @@ devDependencies:
     version: 5.8.2
   vite:
     specifier: 6.2.3
-    version: 6.2.3(@types/node@22.13.11)
+    version: 6.2.3(@types/node@22.13.14)
 
 packages:
 
@@ -752,8 +752,8 @@ packages:
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
     dev: true
 
-  /@types/node@22.13.11:
-    resolution: {integrity: sha512-iEUCUJoU0i3VnrCmgoWCXttklWcvoCIx4jzcP22fioIVSdTmjgoEvmAO/QPw6TcS9k5FrNgn4w7q5lGOd1CT5g==}
+  /@types/node@22.13.14:
+    resolution: {integrity: sha512-Zs/Ollc1SJ8nKUAgc7ivOEdIBM8JAKgrqqUYi2J997JuKO7/tpQC+WCetQ1sypiKCQWHdvdg9wBNpUPEWZae7w==}
     dependencies:
       undici-types: 6.20.0
     dev: true
@@ -786,7 +786,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.25.9(@babel/core@7.26.0)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 6.2.3(@types/node@22.13.11)
+      vite: 6.2.3(@types/node@22.13.14)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1680,7 +1680,7 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite@6.2.3(@types/node@22.13.11):
+  /vite@6.2.3(@types/node@22.13.14):
     resolution: {integrity: sha512-IzwM54g4y9JA/xAeBPNaDXiBF8Jsgl3VBQ2YQ/wOY6fyW3xMdSoltIV3Bo59DErdqdE6RxUfv8W69DvUorE4Eg==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
@@ -1720,7 +1720,7 @@ packages:
       yaml:
         optional: true
     dependencies:
-      '@types/node': 22.13.11
+      '@types/node': 22.13.14
       esbuild: 0.25.0
       postcss: 8.5.3
       rollup: 4.34.6
