@@ -1,5 +1,5 @@
 # Stage 1: Build the app
-FROM node:23-alpine AS build
+FROM node:23.11.1-alpine AS build
 
 # Install pnpm
 RUN corepack enable
